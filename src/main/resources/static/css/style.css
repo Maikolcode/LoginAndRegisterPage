@@ -87,3 +87,8 @@
     font-size: 90px;
     font-weight: bold;
 }
+@media (max-width: 800px) {
+    .contedor-login, .contedor-register{
+        width: 95%;
+    }
+}
