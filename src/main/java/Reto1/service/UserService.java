@@ -41,7 +41,7 @@ public class UserService {
         Optional<User> user = userRepository.userAuthentication(email, password);
         
         if (user.isEmpty()) {
-            return new User(email, password, "NOT DEFINED");
+            return new User(email, password, "NO DEFINIDO");
         }else {
             return user.get();
         }
